@@ -1,0 +1,23 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Esto centra verticalmente el botón en la pantalla */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Esto centra verticalmente el botón en la pantalla */
+}
+
+.custom-header {
+  height: 100px; /* Ajusta este valor a la altura deseada */
+}
+
+.custom-header ion-toolbar {
+  height: 100%; /* Asegura que el ion-toolbar ocupe toda la altura del ion-header */
+  --min-height: 100px; /* También puedes ajustar la altura mínima si es necesario */
+}
+

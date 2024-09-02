@@ -1,0 +1,7 @@
+{
+  "name": "carfind",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
